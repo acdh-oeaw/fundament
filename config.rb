@@ -1,8 +1,8 @@
 http_path = "/" #root level target path
-css_dir = "dist/css" #targets our default style.css
+css_dir = "src/css" #targets our default style.css
 sass_dir = "scss" #targets our scss directory
 images_dir = "assets/images" #targets our pre existing image directory
-javascripts_dir = "dist/js" #targets our JavaScript directory
+javascripts_dir = "src/js" #targets our JavaScript directory
  
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
