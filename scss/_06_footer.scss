@@ -1,0 +1,88 @@
+/* ARCHE COPY STYLES, TO BE IMPLEMENTED */
+.main-footer {
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 100%;
+  z-index: 3;
+  position: relative;
+  }
+  .main-footer .footer-wrapper {
+    padding: 25px 20px 50px 20px;
+    display: inline-block;
+    width: 100%; }
+    .main-footer .footer-wrapper .footer-social {
+      text-align: right; }
+      .main-footer .footer-wrapper .footer-social a {
+        font-size: 24px;
+        color: #333333;
+        margin-left: 15px; }
+    .main-footer .footer-wrapper .navbar {
+      float: right;
+      padding-right: 0; }
+
+.footer-sep {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  margin-bottom: 35px;
+  font-weight: 600;
+  font-size: 14px; }
+
+.footer-sep i {
+  font-size: 20px;
+  padding-right: 5px; }
+
+footer .el-block.first {
+  padding-left: 0; }
+
+footer .el-block.last {
+  padding-right: 0;
+  float: right; }
+
+.helpdesk-button {
+  display: block;
+  background-color: #FFFFFF;
+  border: 1px solid $acdh_blue;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 11px;
+  font-weight: 600;
+  color: $acdh_blue;
+  transition: background-color ease .2s, color ease .2s; }
+
+.helpdesk-button:hover, .helpdesk-button:focus {
+  background-color: $acdh_blue;
+  color: #FFFFFF;
+  transition: background-color ease .2s, color ease .2s; }
+
+footer .bodytext {
+  font-size: 15px; }
+
+.csc-textpic-text {
+  padding-left: 20px; }
+
+footer h3 {
+  font-size: 17px; }
+
+.footer-login-button {
+  float: right;
+  margin-left: 8px; }
+
+.footer-login-button i {
+  color: $acdh_blue;
+  font-size: 22px;
+  margin-top: 6px;
+  transition: color ease .2s; }
+
+.footer-login-button i:hover, .footer-login-button i:focus {
+  color: #3B89AD; }
+
+.footer-imprint-bar {
+  text-align: center;
+  background-color: #F1F1F1;
+  padding: 8px;
+  font-size: 14px; }
+
+.el-block {
+    float: left;
+}

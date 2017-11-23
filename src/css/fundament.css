@@ -6357,93 +6357,20 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-.navbar {
-  border-bottom: 4px solid #88dbdf; }
-  .navbar .navbar-brand {
-    font-weight: 700;
-    padding-right: 20px; }
-  .navbar ul.navbar-nav {
-    padding: 20px;
-    border-left: 1px solid #88dbdf;
-    align-items: center;
-    flex: 1; }
-    .navbar ul.navbar-nav .nav-link {
-      font-weight: 500; }
-    .navbar ul.navbar-nav .navbar-search {
-      width: 180px;
-      height: 35px;
-      display: flex;
-      margin: 0 10px 0 20px; }
-      .navbar ul.navbar-nav .navbar-search .btn {
-        background-color: #88dbdf;
-        border-color: #88dbdf; }
-        .navbar ul.navbar-nav .navbar-search .btn i {
-          font-size: 20px;
-          vertical-align: middle; }
-      .navbar ul.navbar-nav .navbar-search input {
-        width: 145px; }
-    .navbar ul.navbar-nav .navbar-icons {
-      margin-left: auto; }
-      .navbar ul.navbar-nav .navbar-icons a {
-        font-size: 22px;
-        color: #adb5bd;
-        padding-left: 10px; }
-        .navbar ul.navbar-nav .navbar-icons a:hover {
-          text-decoration: none;
-          color: #444444; }
-  .navbar .acdh-nav-brand {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 80px;
-    border-left: 1px solid #88dbdf; }
-    .navbar .acdh-nav-brand img {
-      height: 50px; }
-    .navbar .acdh-nav-brand p {
-      margin: 0 10px 0 0;
-      font-size: 13px;
-      line-height: 17px;
-      text-align: right;
-      width: 145px; }
-  .navbar .oeaw-nav-brand {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 80px;
-    border-left: 1px solid #88dbdf;
-    padding-left: 20px;
-    margin-left: 20px; }
-    .navbar .oeaw-nav-brand img {
-      height: 50px; }
-
-@media (min-width: 768px) {
-  .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem; } }
+/* Breakingpoint-down mixin
+// Usage:
+  @include breakpoint-down($xs) {
+    ...
+  }
+*/
+/* Breakingpoint-up mixin
+// Usage:
+  @include breakpoint-up($xs) {
+    ...
+  }
+*/
 body {
   padding-top: 100px; }
-
-.jumbotron {
-  background-color: #ffffff;
-  border-top: 4px solid #88dbdf;
-  border-radius: 0px;
-  margin-bottom: 20px;
-  text-align: center;
-  padding: 40px;
-  color: #fff; }
-
-.grid-col {
-  margin-bottom: 20px; }
-  .grid-col .grid-wrap {
-    background-color: #fff;
-    padding: 20px;
-    border-top: 4px solid #88dbdf; }
-
-.btn-main {
-  border: 1px solid #88dbdf;
-  background-color: #fff;
-  color: #444444;
-  font-size: 14px; }
 
 h3:after {
   content: '';
@@ -6461,6 +6388,120 @@ h3:after {
   border-top: 4px solid #88dbdf;
   margin-top: 20px;
   margin-bottom: 20px; }
+
+body.contained .navbar {
+  padding: 0; }
+body .navbar {
+  border-bottom: 4px solid #88dbdf;
+  min-height: 80px; }
+  @media (max-width: 767px) {
+    body .navbar-expand-md > .container {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  body .navbar .navbar-brand {
+    font-weight: 700;
+    padding-right: 20px; }
+  body .navbar ul.navbar-nav {
+    padding: 20px;
+    border-left: 1px solid #88dbdf;
+    align-items: center;
+    flex: 1; }
+    @media (max-width: 767px) {
+      body .navbar ul.navbar-nav {
+        padding: 10px 0;
+        margin-top: 10px;
+        border-left: 0;
+        border-top: 1px solid #88dbdf;
+        align-items: left; } }
+    body .navbar ul.navbar-nav .nav-link {
+      font-weight: 500; }
+      @media (min-width: 768px) {
+        body .navbar ul.navbar-nav .nav-link {
+          padding-right: 1rem;
+          padding-left: 1rem; } }
+    body .navbar ul.navbar-nav .navbar-search {
+      width: 180px;
+      height: 35px;
+      display: flex;
+      margin: 0 10px 0 20px; }
+      body .navbar ul.navbar-nav .navbar-search .btn {
+        background-color: #88dbdf;
+        border-color: #88dbdf; }
+        body .navbar ul.navbar-nav .navbar-search .btn i {
+          font-size: 20px;
+          vertical-align: middle; }
+      body .navbar ul.navbar-nav .navbar-search input {
+        width: 145px; }
+    body .navbar ul.navbar-nav .navbar-icons {
+      margin-left: auto; }
+      @media (max-width: 767px) {
+        body .navbar ul.navbar-nav .navbar-icons {
+          margin-left: -10px; } }
+      body .navbar ul.navbar-nav .navbar-icons a {
+        font-size: 22px;
+        color: #adb5bd;
+        padding-left: 10px; }
+        body .navbar ul.navbar-nav .navbar-icons a:hover {
+          text-decoration: none;
+          color: #444444; }
+  body .navbar .acdh-nav-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border-left: 1px solid #88dbdf;
+    padding-left: 20px; }
+    body .navbar .acdh-nav-brand img {
+      height: 45px; }
+    body .navbar .acdh-nav-brand p {
+      margin: 0 15px 0 0;
+      font-size: 13px;
+      line-height: 17px;
+      text-align: right;
+      width: 130px; }
+      @media (max-width: 1199px) {
+        body .navbar .acdh-nav-brand p {
+          display: none; } }
+    @media (max-width: 991px) {
+      body .navbar .acdh-nav-brand {
+        display: none; } }
+  body .navbar .oeaw-nav-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border-left: 1px solid #88dbdf;
+    padding-left: 20px;
+    margin-left: 20px; }
+    body .navbar .oeaw-nav-brand img {
+      height: 50px; }
+    @media (max-width: 991px) {
+      body .navbar .oeaw-nav-brand {
+        display: none; } }
+
+.grid-col {
+  margin-bottom: 20px; }
+  .grid-col .grid-wrap {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 4px solid #88dbdf; }
+
+.jumbotron {
+  background-color: #ffffff;
+  border-top: 4px solid #88dbdf;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 40px;
+  color: #fff; }
+
+.btn-main {
+  border: 1px solid #88dbdf;
+  background-color: #fff;
+  color: #444444;
+  font-size: 14px; }
 
 /* ARCHE COPY STYLES, TO BE IMPLEMENTED */
 .main-footer {

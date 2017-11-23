@@ -1,0 +1,27 @@
+.grid-col {
+  margin-bottom: $grid-gutter-width;
+
+  .grid-wrap {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 4px solid $acdh_blue;
+  }
+
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  border-top: 4px solid $acdh_blue;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
+
+.btn-main {
+  border: 1px solid $acdh_blue;
+  background-color: #fff;
+  color: $body-color;
+  font-size: 14px;
+}

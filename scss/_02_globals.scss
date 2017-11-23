@@ -1,0 +1,22 @@
+body {
+  padding-top: 100px;
+}
+
+h3:after {
+  content: '';
+  display: block;
+  width: 60px;
+  border-top: 4px solid $acdh_blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron h1:after {
+  content: '';
+  display: block;
+  width: 60px;
+  margin-left: calc(50% - 30px);
+  border-top: 4px solid $acdh_blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
