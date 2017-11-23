@@ -82,6 +82,20 @@ $navbar-padding-y: 0;
 
   }
 
+  .oeaw-nav-brand {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 80px;
+      border-left: 1px solid #88dbdf;
+      padding-left: 20px;
+      margin-left: 20px;
+
+      img {
+          height: 50px;
+      }
+  }
+
 }
 
 @media (min-width: 768px) {

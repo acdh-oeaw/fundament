@@ -6394,6 +6394,16 @@ a.text-dark:focus, a.text-dark:hover {
       line-height: 17px;
       text-align: right;
       width: 160px; }
+  .navbar .oeaw-nav-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border-left: 1px solid #88dbdf;
+    padding-left: 20px;
+    margin-left: 20px; }
+    .navbar .oeaw-nav-brand img {
+      height: 50px; }
 
 @media (min-width: 768px) {
   .nav-link {
