@@ -6496,7 +6496,8 @@ body .navbar {
   margin-bottom: 20px;
   text-align: center;
   padding: 40px;
-  color: #fff; }
+  color: #fff;
+  background-size: cover; }
 
 .btn-main {
   border: 1px solid #88dbdf;
