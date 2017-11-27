@@ -1,12 +1,11 @@
 .grid-col {
   margin-bottom: $grid-gutter-width;
+}
 
-  .grid-wrap {
-    background-color: #fff;
-    padding: 20px;
-    border-top: 4px solid $acdh_blue;
-  }
-
+.grid-wrap {
+  background-color: #fff;
+  padding: 20px;
+  border-top: 4px solid $acdh_blue;
 }
 
 .jumbotron {
