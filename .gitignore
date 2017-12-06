@@ -1,3 +1,7 @@
 .htaccess
 .sass-cache/
 *.css.map
+
+# IDEs
+nbproject/*
+
