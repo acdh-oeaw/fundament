@@ -27,13 +27,14 @@
               <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
             </div>
             -->
-            <div class="navbar-icons">
+            <li class="navbar-icons">
               <a href="https://github.com/acdh-oeaw/fundament" target="_blank" rel="noopener" aria-label="GitHub">
-                <i class="fa fa-github" aria-hidden="true" alt="GitHub" title="GitHub"></i>
+                <i class="fa fa-github" aria-hidden="true" title="GitHub"></i>
               </a>
               <a href="#">
-                <i class="fa fa-search" aria-hidden="true" alt="Search" title="Search"></i>
+                <i class="fa fa-search" aria-hidden="true" title="Search"></i>
               </a>
+            </li>
           </ul>
           <div class="acdh-nav-brand">
             <p>A Service of Austrian Centre for Digital Humanities</p>

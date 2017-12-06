@@ -105,6 +105,10 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+iframe {
+    border: none;
+}
+
 @-ms-viewport {
   width: device-width; }
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {

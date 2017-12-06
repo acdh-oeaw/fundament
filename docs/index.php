@@ -1,7 +1,7 @@
 <?php include('_partials/header.php'); ?>
 <body class="contained">
   <?php include('_partials/nav.php'); ?>
-  <main role="main">
+  <main>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container">
       <div class="jumbotron" style="background-image: url(../assets/images/intro-bg.jpg);">

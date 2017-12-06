@@ -46,7 +46,7 @@
           <div>
             <h2 id="quick-start">Quick start<a aria-label="Anchor" class="anchorjs-link" data-anchorjs-icon="#" href="#quick-start" style="padding-left: 0.375em;"></a></h2>
           </div>
-          <p>If you want to quickly add Fundament to your project or test it out, you may use it remotely provided by on our servers. For long term usage you may want to download the source files and implement them in your application.</a></p>
+          <p>If you want to quickly add Fundament to your project or test it out, you may use it remotely provided by on our servers. For long term usage you may want to download the source files and implement them in your application.</p>
           <div>
             <h3 id="css">CSS<a aria-label="Anchor" class="anchorjs-link" data-anchorjs-icon="#" href="#css" style="padding-left: 0.375em;"></a></h3>
           </div>
