@@ -1,6 +1,7 @@
 .htaccess
 .sass-cache/
 *.css.map
+.DS_Store
 
 # IDEs
 nbproject/*
