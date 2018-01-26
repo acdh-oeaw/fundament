@@ -19,34 +19,17 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Customizer</a>
             </li>
-            <!--
-            <div class="navbar-search input-group-sm">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button"><i class="material-icons">search</i></button>
-              </span>
-              <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-            </div>
-            -->
-            <li class="navbar-icons">
-              <a href="https://github.com/acdh-oeaw/fundament" target="_blank" rel="noopener" aria-label="GitHub">
-                <i class="fa fa-github" aria-hidden="true" title="GitHub"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-search" aria-hidden="true" title="Search"></i>
-              </a>
-            </li>
           </ul>
-          <div class="acdh-nav-brand">
-            <p>A Service of Austrian Centre for Digital Humanities</p>
-            <a href="https://www.oeaw.ac.at/acdh/acdh-home/" target="_blank" rel="noopener" aria-label="ACDH">
-              <img src="../assets/images/acdh_logo120h.png" alt="ACDH" title="Austrian Center for Digital Humanities">
+
+          <div class="navbar-icons">
+            <a href="https://github.com/acdh-oeaw/fundament" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa fa-github" aria-hidden="true" title="GitHub"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-search" aria-hidden="true" title="Search"></i>
             </a>
           </div>
-          <div class="oeaw-nav-brand">
-            <a href="https://www.oeaw.ac.at" target="_blank" rel="noopener" aria-label="ÖAW">
-              <img src="../assets/images/oeaw_logo.png" alt="ÖAW" title="Österreichische Akademie der Wissenschaften">
-            </a>
-          </div>
+
         </div>
       </div>
     </nav>

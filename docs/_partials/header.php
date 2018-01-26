@@ -13,7 +13,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Fundament core CSS -->
-    <link href="../src/css/fundament.css?v=20171123-01" rel="stylesheet">
+    <link href="../src/css/fundament.min.css?v=20180126-01" rel="stylesheet">
 
   </head>
   

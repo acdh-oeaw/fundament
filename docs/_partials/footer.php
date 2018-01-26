@@ -4,8 +4,10 @@
         <div class="footer-sep">
           <i aria-hidden="true" class="fa fa-comment-o"></i> CONTACT <span class="footer-login-button"><a href="https://arche.acdh.oeaw.ac.at/browser/user/login"><i aria-hidden="true" class="fa fa-sign-in"></i></a></span>
         </div>
-        <div class="el-block col-md-3 first">
-          <iframe allowfullscreen height="230" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.7249785477802!2d16.37577444283506!3d48.20990150015764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079f8cc04aef%3A0xee66fb1ed728ec45!2sAustrian+Centre+for+Digital+Humanities!5e0!3m2!1sen!2sus!4v1507743890390" width="280"></iframe>
+        <div class="el-block col-md-1 first">
+          <a href="https://www.oeaw.ac.at/acdh/acdh-home/" target="_blank" rel="noopener" aria-label="ACDH">
+            <img src="../assets/images/acdh_logo120h.png" alt="ACDH" title="Austrian Center for Digital Humanities">
+          </a>
         </div>
         <div class="el-block col-md-4">
           <div class="csc-textpic-text">
@@ -28,11 +30,10 @@
     <div class="footer-imprint-bar">
       © Copyright OEAW | <a href="https://arche.acdh.oeaw.ac.at/browser/imprint">Impressum/Imprint</a>
     </div>
-  </footer><!-- Bootstrap core JavaScript
+  </footer><!-- Fundament core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="../src/vendor/jquery.js"></script>
-  <script src="../src/vendor/popper.min.js"></script>
+  <script src="../src/vendor/jquery-slim.min.js"></script>
   <script src="../src/js/fundament.min.js"></script>
 </body>
 </html>
