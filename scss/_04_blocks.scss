@@ -2,15 +2,23 @@
   margin-bottom: $grid-gutter-width;
 }
 
-.grid-wrap {
-  background-color: #fff;
-  padding: 20px;
-  border-top: 4px solid $acdh_blue;
+.row-heading {
+  text-align: center;
+}
+
+.card {
+  border-top: $element-border;
+  overflow: hidden;
+}
+
+.card-img-right {
+    max-width: 40%;
+    object-fit: cover;
 }
 
 .jumbotron {
   background-color: #ffffff;
-  border-top: 4px solid $acdh_blue;
+  border-top: $element-border;
   border-radius: 0px;
   margin-bottom: 20px;
   text-align: center;
@@ -23,5 +31,4 @@
   border: 1px solid $acdh_blue;
   background-color: #fff;
   color: $body-color;
-  font-size: 14px;
 }

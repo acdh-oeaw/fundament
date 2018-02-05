@@ -1,26 +1,30 @@
-body {
+body.fixed-nav {
   padding-top: 104px;
 }
 
-h3:after {
+.card h3:after {
   content: '';
   display: block;
-  width: 60px;
-  border-top: 4px solid $acdh_blue;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 50px;
+  border-top: $element-border;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .jumbotron h1:after {
   content: '';
-  display: block;
-  width: 60px;
   margin-left: calc(50% - 30px);
-  border-top: 4px solid $acdh_blue;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: block;
+  width: 50px;
+  border-top: $element-border;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 iframe {
   border: none;
+}
+
+.box-shadow { 
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.03);; 
 }

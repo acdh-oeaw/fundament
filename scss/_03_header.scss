@@ -3,8 +3,13 @@
 }
 
 .navbar {
-  border-bottom: 4px solid $acdh_blue;
+  border-bottom: $element-border;
   min-height: 80px;
+  margin-bottom: 20px;
+
+  a {
+    transition: color 0.2s linear;
+  }
 
   &-expand-md > .container {
     @include breakpoint-down($md) {
@@ -18,6 +23,13 @@
   .navbar-brand {
     font-weight: 700;
     padding-right: 20px;
+    display: flex;
+    align-items: center;
+
+    img {
+      max-height: 50px;
+    }
+
   }
 
   ul.navbar-nav {
@@ -71,7 +83,7 @@
 
   .navbar-icons {
     margin-left: auto;
-    padding-left: 10px;
+    padding-left: 20px;
 
     @include breakpoint-down($md) {
       margin-left: -10px;

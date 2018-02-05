@@ -1,6 +1,9 @@
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white box-shadow">
       <div class="container">
-        <a class="navbar-brand" href="../docs/index.php">Fundament</a>
+        <a class="navbar-brand" href="../docs/index.php">
+          <img class="mr-2" src="../assets/images/fundament-logo.svg" height="35px" alt="" />
+          Fundament
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

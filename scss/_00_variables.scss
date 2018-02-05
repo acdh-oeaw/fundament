@@ -1,6 +1,7 @@
 // Variables
 $acdh_blue: #88dbdf;
 $gray-100: #F1F1F1;
+$element-border: 5px solid $acdh_blue;
 
 // Grid columns
 $grid-gutter-width: 20px;
@@ -12,3 +13,7 @@ $body-color: #444444;
 // Navbar
 $navbar-padding-y: 0;
 $navbar-light-active-color: $body-color;
+
+// Cards
+$card-border-width: 0;
+$card-border-radius: 0;
