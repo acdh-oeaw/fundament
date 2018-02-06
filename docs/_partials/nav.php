@@ -25,11 +25,14 @@
           </ul>
 
           <div class="navbar-icons">
-            <a href="https://github.com/acdh-oeaw/fundament" target="_blank" rel="noopener" aria-label="GitHub">
-              <i class="fa fa-github" aria-hidden="true" title="GitHub"></i>
+            <a href="https://github.com/acdh-oeaw/fundament" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
             </a>
             <a href="#">
-              <i class="fa fa-search" aria-hidden="true" title="Search"></i>
+              <i class="fas fa-sign-in-alt"></i>
+            </a>
+            <a href="#">
+              <i class="fas fa-search"></i>
             </a>
           </div>
 

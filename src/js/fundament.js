@@ -1,4 +1,23 @@
 /*!
+ * Fundament v0.1.0 (https://github.com/acdh-oeaw/fundament)
+ * Licensed under MIT (https://github.com/acdh-oeaw/fundament/blob/master/LICENSE)
+ */
+function UnCryptMailto (s) {
+  var n = 0;
+  var r = "";
+  for(var i = 0; i < s.length; i++) {
+    n = s.charCodeAt( i );
+    if(n >= 8364) {
+      n = 128;
+    }
+    r += String.fromCharCode(n - 1);
+  }
+  return r;
+}
+function linkTo_UnCryptMailto (s) {
+  location.href=UnCryptMailto (s);
+}
+/*!
   * Bootstrap v4.0.0 (https://getbootstrap.com)
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)

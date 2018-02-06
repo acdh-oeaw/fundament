@@ -26,6 +26,10 @@
     display: flex;
     align-items: center;
 
+    @include breakpoint-down($lg) {
+      padding-right: 5px;
+    }
+
     img {
       max-height: 50px;
     }
@@ -39,6 +43,10 @@
     align-items: center;
     flex: 1;
 
+    @include breakpoint-down($lg) {
+      padding: 20px 10px;
+    }
+
     @include breakpoint-down($md) {
       padding: 10px 0;
       margin-top: 10px;
@@ -50,7 +58,7 @@
     .nav-link {
         font-weight: 500;
 
-        @include breakpoint-up($md) {
+        @include breakpoint-up($lg) {
           padding-right: 1rem;
           padding-left: 1rem;
         }
@@ -83,16 +91,24 @@
 
   .navbar-icons {
     margin-left: auto;
-    padding-left: 20px;
+    padding-left: 15px;
+
+    @include breakpoint-down($lg) {
+      padding-left: 5px;
+    }
 
     @include breakpoint-down($md) {
       margin-left: -10px;
     }
 
     a {
-      font-size: 22px;
+      font-size: 20px;
       color: $gray-500;
-      padding-left: 10px;
+      padding-left: 15px;
+
+      @include breakpoint-down($lg) {
+        padding-left: 10px;
+      }
 
       &:hover {
         text-decoration: none;
