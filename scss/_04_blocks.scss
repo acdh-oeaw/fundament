@@ -27,6 +27,15 @@
   background-size: cover;
 }
 
+.container-fluid .jumbotron {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.fixed-nav .container-fluid .jumbotron {
+    margin-top: -24px;
+}
+
 .btn-main {
   border: 1px solid $acdh_blue;
   background-color: #fff;

@@ -1,9 +1,9 @@
 <?php include('_partials/header.php'); ?>
-<body class="contained">
+<body class="contained fixed-nav">
   <?php include('_partials/nav.php'); ?>
   <main class="grid-col" role="main">
     <div class="container">
-      <div class="row flex-xl-nowrap grid-wrap">
+      <div class="row flex-xl-nowrap bg-white box-shadow element-border">
         <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
           <nav class="collapse bd-links" id="bd-docs-nav">
             <div class="bd-toc-item active">

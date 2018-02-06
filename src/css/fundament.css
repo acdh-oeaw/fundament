@@ -6532,6 +6532,9 @@ iframe {
 .box-shadow {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.03); }
 
+.element-border {
+  border-top: 5px solid #88dbdf; }
+
 .contained .navbar {
   padding: 0; }
 
@@ -6623,6 +6626,13 @@ iframe {
   padding: 40px;
   color: #fff;
   background-size: cover; }
+
+.container-fluid .jumbotron {
+  margin-left: -10px;
+  margin-right: -10px; }
+
+.fixed-nav .container-fluid .jumbotron {
+  margin-top: -24px; }
 
 .btn-main {
   border: 1px solid #88dbdf;

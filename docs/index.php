@@ -3,7 +3,7 @@
   <?php include('_partials/nav.php'); ?>
   <main>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="container">
+    <div class="container-fluid">
       <div class="jumbotron" style="background-image: url(../assets/images/intro-bg.jpg);">
         <div class="container">
           <h1>Hello, world! Ich heiße Fundament.</h1>
@@ -23,12 +23,11 @@
           <div class="card flex-md-row mb-4 box-shadow">
             <div class="card-body">
               <h3 class="mb-0"><a class="text-dark" href="#">Docs</a></h3>
-              <p class="card-text">Get to know the specifications and components of Fundament.</p>
+              <p class="card-text">Get to know the specifications of Fundament and learn how you can use various components to make the development of your application easier.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
               </div>
             </div>
-            <img class="card-img-right flex-auto d-none d-md-block" alt="Thumbnail for Docs" height="220px" src="../assets/images/docs_thumb.jpeg" data-holder-rendered="true">
           </div>
         </div>
 
@@ -36,12 +35,11 @@
           <div class="card flex-md-row mb-4 box-shadow">
             <div class="card-body">
               <h3 class="mb-0"><a class="text-dark" href="#">Quick Start</a></h3>
-              <p class="card-text">Start your project with Fundament by loading a couple of CSS and JS files.</p>
+              <p class="card-text">Start your project quickly with Fundament by loading only a couple of CSS and JS files either as external resources or importing from your local directory.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
               </div>
             </div>
-            <img class="card-img-right flex-auto d-none d-md-block" alt="Thumbnail for Quick Start" height="220px" src="../assets/images/quickstart_thumb.jpeg" data-holder-rendered="true">
           </div>
         </div>
 
