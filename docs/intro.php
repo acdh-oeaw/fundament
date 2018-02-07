@@ -3,38 +3,23 @@
   <?php include('_partials/nav.php'); ?>
   <main class="grid-col" role="main">
     <div class="container">
-      <div class="row flex-xl-nowrap bg-white box-shadow element-border">
+      <div class="main-content row flex-xl-nowrap bg-white box-shadow element-border">
         <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
           <nav class="collapse bd-links" id="bd-docs-nav">
             <div class="bd-toc-item active">
-              <a class="bd-toc-link" href="../docs/intro.php">Documentation</a>
+              <a class="bd-toc-link" href="#">Documentation</a>
               <ul class="nav bd-sidenav">
                 <li class="active bd-sidenav-active">
                   <a href="../docs/intro.php">Introduction</a>
                 </li>
                 <li>
-                  <a href="../docs/intro.php">Elements</a>
-                </li>
-                <li>
-                  <a href="../docs/intro.php">Examples</a>
-                </li>
-                <li>
-                  <a href="../docs/intro.php">Customizer</a>
+                  <a href="../docs/quick-start.php">Quick Start</a>
                 </li>
               </ul>
-              <a class="bd-toc-link" href="../docs/intro.php">Standards</a>
+              <a class="bd-toc-link" href="#">Components</a>
               <ul class="nav bd-sidenav">
                 <li>
-                  <a href="../docs/intro.php">Accessibility</a>
-                </li>
-                <li>
-                  <a href="../docs/intro.php">Identity</a>
-                </li>
-                <li>
-                  <a href="../docs/intro.php">Recommendations</a>
-                </li>
-                <li>
-                  <a href="../docs/intro.php">About</a>
+                  <a href="../docs/cards.php">Cards</a>
                 </li>
               </ul>
             </div>
@@ -42,16 +27,36 @@
         </div>
         <div class="col-12 col-md-9 col-xl-10 page-content-w-sidebar">
 
-          <h1><a id="introduction"></a>Introduction</h1>
-          <p>Get started with Fundament, a starter HTML, CSS and JavaScript framework for web applications. Use it to create accessible, modern and responsive websites that follow the design guidelines of ACDH.</p>
-          <h2><a id="quick_start"></a>Quick Start</h2>
-          <p>If you want to quickly add Fundament to your project or test it out, you may use it remotely provided by on our servers. For long term usage you may want to download the source files and implement them in your application.</p>
-          <h3><a id="adding_the_CSS"></a>Adding the CSS</h3>
-          <p>Copy-paste the stylesheet into the &lt;head&gt;&lt;/head&gt; section of your website.</p>
-          <script src="https://gist.github.com/asilcetin/e0549569c88dc17dfeee693a36ae39ef.js"></script>
-          <h3><a id="adding_the_JS"></a>Adding the JS</h3>
-          <p>Copy-paste the following JS files at the end of your pages before closing the &lt;/body&gt; tag. Remember that the first resource we’re embedding is for the Fontawesome icons. If you’re sure that you won’t need any icons, then you don’t need to copy the first line. However jQuery is required for many components. We use jQuery’s slim build, but the full version is also supported.</p>
-          <script src="https://gist.github.com/asilcetin/a4e4f35a1aa8aeb056465e6766c0d71d.js"></script>
+          <h1><a id="Introduction_0"></a>Introduction</h1>
+          <p>Fundament is a starter HTML, CSS and JavaScript framework for web applications. Use it to create accessible, modern and responsive websites that follow the design guidelines of ACDH.</p>
+          <h3><a id="Package_2"></a>Package</h3>
+          <p>Fundament uses the following libraries:</p>
+          <ul>
+            <li>Bootstrap v4.0.0</li>
+            <li>jQuery v3.2.1</li>
+            <li>Font Awesome Free 5.0.6</li>
+            <li>Popper.js 1.12.9</li>
+          </ul>
+          <h3><a id="Development_8"></a>Development</h3>
+          <h4><a id="Compiling_SASS_9"></a>Compiling SASS</h4>
+          <ul>
+            <li>Make sure you have sass-watch installed.</li>
+            <li>Run the command: sass --watch scss/fundament.scss:css/fundament.css --style expanded</li>
+            <li>Only edit the .scss files under /scss directory.</li>
+            <li>Your output file fundament.css will be generated under css/ directory.</li>
+          </ul>
+          <h4><a id="Minifying_CSS_14"></a>Minifying CSS</h4>
+          <ul>
+            <li>Make sure you have sass-watch installed.</li>
+            <li>Run the command: sass --watch scss/fundament.scss:dist/fundament/css/fundament.min.css --style compressed</li>
+          </ul>
+          <h4><a id="Editing_and_Minifying_JS_17"></a>Editing and Minifying JS</h4>
+          <ul>
+            <li>Edit js/fundament.js and mind the original bootstrap.js content which comes after fundament.js</li>
+            <li>Make sure you have uglifyjs installed.</li>
+            <li>Run the command: uglifyjs js/fundament.js -c -m -o dist/fundament/js/fundament.min.js</li>
+          </ul>
+          
         </div>
       </div>
     </div>

@@ -2,6 +2,10 @@
   margin-bottom: $grid-gutter-width;
 }
 
+.main-content {
+  min-height: 750px;
+}
+
 .row-heading {
   text-align: center;
   color: $gray-600;

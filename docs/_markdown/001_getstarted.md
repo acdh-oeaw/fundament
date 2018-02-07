@@ -1,6 +1,4 @@
-# Introduction
-Get started with Fundament, a starter HTML, CSS and JavaScript framework for web applications. Use it to create accessible, modern and responsive websites that follow the design guidelines of ACDH.
-## Quick Start
+# Quick Start
 If you want to quickly add Fundament to your project or test it out, you may use it remotely provided by on our servers. For long term usage you may want to download the source files and implement them in your application.
 ### Adding the CSS
 Copy-paste the stylesheet into the <head></head> section of your website.

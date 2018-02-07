@@ -8885,6 +8885,10 @@ iframe {
   margin-bottom: 20px;
 }
 
+.main-content {
+  min-height: 750px;
+}
+
 .row-heading {
   text-align: center;
   color: #6c757d;
@@ -10663,6 +10667,14 @@ footer h3 {
 .anchorjs-link:hover {
   color: #007bff;
   text-decoration: none;
+}
+
+/* Extensions */
+.bd-example {
+  background: #f1f1f1;
+  border: 1px solid #dddddd;
+  box-shadow: none;
+  margin-bottom: -1px;
 }
 
 /*# sourceMappingURL=fundament.css.map */

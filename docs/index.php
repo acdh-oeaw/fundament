@@ -24,9 +24,7 @@
             <div class="card-body">
               <h3 class="mb-0"><a class="text-dark" href="#">Docs</a></h3>
               <p class="card-text">Get to know the specifications of Fundament and learn how you can use various components to make the development of your application easier.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
-              </div>
+              <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
             </div>
           </div>
         </div>
@@ -36,9 +34,7 @@
             <div class="card-body">
               <h3 class="mb-0"><a class="text-dark" href="#">Quick Start</a></h3>
               <p class="card-text">Start your project quickly with Fundament by loading only a couple of CSS and JS files either as external resources or importing from your local directory.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
-              </div>
+              <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
             </div>
           </div>
         </div>
@@ -53,9 +49,7 @@
             <div class="card-body">
               <h3 class="mb-0"><a class="text-dark" href="#">Full-Width Layout</a></h3>
               <p class="card-text">Donec id elit non mi porta gravida at eget metus dapibus, tellus ac cursus commodo.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
-              </div>
+              <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
             </div>
           </div>
         </div>
@@ -66,9 +60,7 @@
             <div class="card-body">
               <h3 class="mb-0"><a class="text-dark" href="#">Dark Palette</a></h3>
               <p class="card-text">Donec id elit non mi porta gravida at eget metus dapibus, tellus ac cursus commodo.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
-              </div>
+              <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
             </div>
           </div>
         </div>
@@ -79,9 +71,7 @@
             <div class="card-body">
               <h3 class="mb-0"><a class="text-dark" href="#">Components</a></h3>
               <p class="card-text">Donec id elit non mi porta gravida at eget metus dapibus, tellus ac cursus commodo.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
-              </div>
+              <a class="btn btn-main btn-outline-primary btn-sm" href="#" role="button">View Details</a>
             </div>
           </div>
         </div>
