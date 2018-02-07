@@ -9212,7 +9212,7 @@ footer h3 {
 .page-content-w-sidebar {
   -ms-flex-order: 1;
   order: 1;
-  padding: 20px 10px 20px 30px;
+  padding: 30px;
 }
 
 .page-content-w-sidebar > h2[id], .page-content-w-sidebar > h3[id], .page-content-w-sidebar > h4[id] {
@@ -9271,9 +9271,11 @@ footer h3 {
 }
 
 @media (min-width: 992px) {
-  .page-content-w-sidebar > ol, .page-content-w-sidebar > p, .page-content-w-sidebar > ul {
-    max-width: 80%;
-  }
+  /*
+    .page-content-w-sidebar>ol, .page-content-w-sidebar>p, .page-content-w-sidebar>ul {
+      max-width: 80%
+    }
+  */
 }
 @media (min-width: 576px) {
   .bd-title {
@@ -9432,7 +9434,8 @@ footer h3 {
       top: 6rem;
       z-index: 1000;
       max-height: calc(100vh - 4rem);
-      margin-top: 1.5rem;
+      margin-top: 30px;
+      padding-left: 20px;
     }
   }
 }

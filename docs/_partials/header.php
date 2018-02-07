@@ -9,9 +9,6 @@
 
     <title>Fundament</title>
 
-    <!-- Fontawesome icons -->
-    <script defer src="../dist/fundament/vendor/js/fontawesome-all.min.js"></script>
-
     <!-- Fundament core CSS -->
     <link href="../dist/fundament/css/fundament.min.css?v=20180207-01" rel="stylesheet">
 
