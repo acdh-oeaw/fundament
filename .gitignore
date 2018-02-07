@@ -1,6 +1,6 @@
 .htaccess
 .sass-cache/
-*.css.map
+fundament.min.css.map
 .DS_Store
 
 # IDEs
