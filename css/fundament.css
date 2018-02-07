@@ -3109,7 +3109,7 @@ tbody.collapse.show {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem; }
+  padding: 10px 1rem; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: flex;
@@ -6878,7 +6878,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 */
 body.fixed-nav {
-  padding-top: 104px; }
+  padding-top: 110px; }
 
 .card h3:after {
   content: '';
@@ -6906,40 +6906,38 @@ iframe {
 .element-border {
   border-top: 5px solid #88dbdf; }
 
+/*
 .contained .navbar {
-  padding: 0; }
-
+  padding: 0;
+}
+*/
 .navbar {
   border-bottom: 5px solid #88dbdf;
-  min-height: 80px;
   margin-bottom: 20px; }
   .navbar a {
     transition: color 0.2s linear; }
   @media (max-width: 767px) {
     .navbar-expand-md > .container {
       padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 20px;
-      padding-bottom: 20px; } }
+      padding-right: 10px; } }
   .navbar .navbar-brand {
     font-weight: 700;
     padding-right: 20px;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    min-height: 65px; }
     @media (max-width: 991px) {
       .navbar .navbar-brand {
         padding-right: 5px; } }
     .navbar .navbar-brand img {
       max-height: 50px; }
   .navbar ul.navbar-nav {
-    padding: 20px;
-    border-left: 1px solid #88dbdf;
-    border-right: 1px solid #88dbdf;
+    padding: 0 20px;
     align-items: center;
     flex: 1; }
     @media (max-width: 991px) {
       .navbar ul.navbar-nav {
-        padding: 20px 10px; } }
+        padding: 0 10px; } }
     @media (max-width: 767px) {
       .navbar ul.navbar-nav {
         padding: 10px 0;
@@ -6947,6 +6945,18 @@ iframe {
         border-left: 0;
         border-top: 1px solid #88dbdf;
         align-items: left; } }
+    .navbar ul.navbar-nav:after {
+      content: '';
+      position: absolute;
+      margin-left: -20px;
+      height: 100%;
+      border-right: 1px solid #88dbdf; }
+      @media (max-width: 991px) {
+        .navbar ul.navbar-nav:after {
+          margin-left: -10px; } }
+      @media (max-width: 767px) {
+        .navbar ul.navbar-nav:after {
+          display: none; } }
     .navbar ul.navbar-nav .nav-link {
       font-weight: 500; }
       @media (min-width: 992px) {
@@ -6967,21 +6977,35 @@ iframe {
       .navbar ul.navbar-nav .navbar-search input {
         width: 145px; }
   .navbar .navbar-icons {
-    margin-left: auto;
-    padding-left: 15px; }
+    display: flex;
+    padding-left: 10px;
+    align-items: center; }
     @media (max-width: 991px) {
       .navbar .navbar-icons {
         padding-left: 5px; } }
     @media (max-width: 767px) {
       .navbar .navbar-icons {
         margin-left: -10px; } }
+    .navbar .navbar-icons:after {
+      content: '';
+      position: absolute;
+      margin-left: -10px;
+      height: 100%;
+      border-right: 1px solid #88dbdf; }
+      @media (max-width: 767px) {
+        .navbar .navbar-icons:after {
+          display: none; } }
     .navbar .navbar-icons a {
       font-size: 20px;
       color: #adb5bd;
-      padding-left: 15px; }
+      padding-left: 20px; }
       @media (max-width: 991px) {
         .navbar .navbar-icons a {
           padding-left: 10px; } }
+      @media (max-width: 767px) {
+        .navbar .navbar-icons a {
+          padding-left: 5px;
+          padding-right: 10px; } }
       .navbar .navbar-icons a:hover {
         text-decoration: none;
         color: #444444; }
@@ -6990,7 +7014,8 @@ iframe {
   margin-bottom: 20px; }
 
 .row-heading {
-  text-align: center; }
+  text-align: center;
+  color: #6c757d; }
 
 .card {
   border-top: 5px solid #88dbdf;
@@ -7006,7 +7031,7 @@ iframe {
   border-radius: 0px;
   margin-bottom: 20px;
   text-align: center;
-  padding: 40px;
+  padding: 60px 20px;
   color: #fff;
   background-size: cover; }
 
@@ -7015,7 +7040,7 @@ iframe {
   margin-right: -10px; }
 
 .fixed-nav .container-fluid .jumbotron {
-  margin-top: -24px; }
+  margin-top: -25px; }
 
 .btn-main {
   border: 1px solid #88dbdf;
@@ -7043,10 +7068,8 @@ iframe {
       .main-footer .footer-wrapper .footer-sep i {
         font-size: 20px;
         padding-right: 5px; }
-
-footer .el-block.last {
-  padding-right: 0;
-  float: right; }
+    .main-footer .footer-wrapper img {
+      max-width: 100%; }
 
 .helpdesk-button {
   display: block;

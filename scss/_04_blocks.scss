@@ -4,6 +4,7 @@
 
 .row-heading {
   text-align: center;
+  color: $gray-600;
 }
 
 .card {
@@ -22,7 +23,7 @@
   border-radius: 0px;
   margin-bottom: 20px;
   text-align: center;
-  padding: 40px;
+  padding: 60px 20px;
   color: #fff;
   background-size: cover;
 }
@@ -33,7 +34,7 @@
 }
 
 .fixed-nav .container-fluid .jumbotron {
-    margin-top: -24px;
+    margin-top: -25px;
 }
 
 .btn-main {

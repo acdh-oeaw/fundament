@@ -1,10 +1,11 @@
+/*
 .contained .navbar {
   padding: 0;
 }
+*/
 
 .navbar {
   border-bottom: $element-border;
-  min-height: 80px;
   margin-bottom: 20px;
 
   a {
@@ -15,8 +16,6 @@
     @include breakpoint-down($md) {
       padding-left: $grid-gutter-width / 2;
       padding-right: $grid-gutter-width / 2;
-      padding-top: $grid-gutter-width;
-      padding-bottom: $grid-gutter-width;
     }
   }
 
@@ -25,6 +24,7 @@
     padding-right: 20px;
     display: flex;
     align-items: center;
+    min-height: 65px;
 
     @include breakpoint-down($lg) {
       padding-right: 5px;
@@ -37,14 +37,12 @@
   }
 
   ul.navbar-nav {
-    padding: 20px;
-    border-left: 1px solid $acdh_blue;
-    border-right: 1px solid $acdh_blue;
+    padding: 0 20px;
     align-items: center;
     flex: 1;
 
     @include breakpoint-down($lg) {
-      padding: 20px 10px;
+      padding: 0 10px;
     }
 
     @include breakpoint-down($md) {
@@ -53,6 +51,23 @@
       border-left: 0;
       border-top: 1px solid #88dbdf;
       align-items: left;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      margin-left: -20px;
+      height: 100%;
+      border-right: 1px solid $acdh_blue;
+
+      @include breakpoint-down($lg) {
+        margin-left: -10px;
+      }
+
+      @include breakpoint-down($md) {
+        display: none;
+      }
+
     }
 
     .nav-link {
@@ -90,8 +105,9 @@
   }//.ul.navbar-nav
 
   .navbar-icons {
-    margin-left: auto;
-    padding-left: 15px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
 
     @include breakpoint-down($lg) {
       padding-left: 5px;
@@ -101,13 +117,31 @@
       margin-left: -10px;
     }
 
+    &:after {
+      content: '';
+      position: absolute;
+      margin-left: -10px;
+      height: 100%;
+      border-right: 1px solid $acdh_blue;
+
+      @include breakpoint-down($md) {
+        display: none;
+      }
+
+    }
+
     a {
       font-size: 20px;
       color: $gray-500;
-      padding-left: 15px;
+      padding-left: 20px;
 
       @include breakpoint-down($lg) {
         padding-left: 10px;
+      }
+
+      @include breakpoint-down($md) {
+        padding-left: 5px;
+        padding-right: 10px;
       }
 
       &:hover {

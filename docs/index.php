@@ -4,7 +4,7 @@
   <main>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container-fluid">
-      <div class="jumbotron" style="background-image: url(../assets/images/intro-bg.jpg);">
+      <div class="jumbotron" style="background-image: url(../dist/fundament/vendor/images/intro_bg.jpg);">
         <div class="container">
           <h1>Hello, world! Ich heiße Fundament.</h1>
           <p>I’m a starter HTML, CSS and JavaScript framework for web applications. Use me to create accessible, modern and responsive websites that follow the design guidelines of ACDH. This jumbotron can be especially nice to quickly present your application to your visitors.</p>
@@ -16,7 +16,7 @@
       <div class="row">
 
         <div class="col-md-12">
-          <h5 class="row-heading pb-2 mb-3 border-bottom">Get Started</h3>
+          <h5 class="row-heading pb-2 mb-3 border-bottom"><i class="fas fa-plug"></i> Get Started</h3>
         </div>
 
         <div class="col-md-6">
@@ -44,7 +44,7 @@
         </div>
 
         <div class="col-md-12">
-          <h5 class="row-heading pb-2 mb-3 border-bottom">Examples</h3>
+          <h5 class="row-heading pb-2 mb-3 border-bottom"><i class="fas fa-paste"></i> Examples</h3>
         </div>
 
         <div class="col-md-4">

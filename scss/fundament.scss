@@ -4,12 +4,12 @@
  */
 
 /* External styles */
-@import "../assets/icons/fa-svg-with-js";
+@import "../vendor/fontawesome/fa-svg-with-js";
 
 @import "_00_variables";
 
 // Bootstrap and its default variables
-@import "../assets/bootstrap/scss/bootstrap";
+@import "../vendor/bootstrap/scss/bootstrap";
 
 @import "_01_mixins";
 @import "_02_globals";

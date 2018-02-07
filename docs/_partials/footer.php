@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-md-1 pl-0">
             <a href="https://www.oeaw.ac.at/acdh/acdh-home/" target="_blank" rel="noopener" aria-label="ACDH">
-              <img src="../assets/images/acdh_logo120h.png" alt="ACDH" title="Austrian Center for Digital Humanities">
+              <img src="../dist/fundament/vendor/images/acdh_logo.png" alt="ACDH" title="Austrian Center for Digital Humanities">
             </a>
           </div>
           <div class="col-md-4">
@@ -43,7 +43,7 @@
   </footer><!-- Fundament core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="../src/vendor/jquery-slim.min.js"></script>
-  <script src="../src/js/fundament.min.js"></script>
+  <script src="../dist/fundament/vendor/js/jquery-slim.min.js"></script>
+  <script src="../dist/fundament/js/fundament.min.js"></script>
 </body>
 </html>

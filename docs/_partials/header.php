@@ -10,12 +10,10 @@
     <title>Fundament</title>
 
     <!-- Fontawesome icons -->
-    <!-- <link href="../src/vendor/fontawesome-all.min.css" rel="stylesheet"> -->
-    <script defer src="../src/vendor/fontawesome-all.min.js"></script>
+    <script defer src="../dist/fundament/vendor/js/fontawesome-all.min.js"></script>
 
     <!-- Fundament core CSS -->
-    <!-- <link href="../src/css/fundament.min.css?v=20180205-01" rel="stylesheet">  -->
-    <link href="../src/css/fundament.css" rel="stylesheet"> 
+    <link href="../dist/fundament/css/fundament.min.css?v=20180207-01" rel="stylesheet">
 
   </head>
   
