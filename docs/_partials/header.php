@@ -10,7 +10,7 @@
     <title>Fundament</title>
 
     <!-- Fundament core CSS -->
-    <link href="../dist/fundament/css/fundament.min.css?v=20180207-01" rel="stylesheet">
+    <link href="../dist/fundament/css/fundament.min.css?v=20180208-01" rel="stylesheet">
 
   </head>
   
