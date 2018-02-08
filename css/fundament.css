@@ -8848,7 +8848,7 @@ iframe {
     margin-left: -10px;
   }
 }
-.navbar .navbar-icons:after {
+.navbar .navbar-icons:before {
   content: '';
   position: absolute;
   margin-left: -10px;
@@ -8856,7 +8856,7 @@ iframe {
   border-right: 1px solid #88dbdf;
 }
 @media (max-width: 767px) {
-  .navbar .navbar-icons:after {
+  .navbar .navbar-icons:before {
     display: none;
   }
 }
