@@ -2,6 +2,7 @@
  * Fundament v0.1.0 (https://github.com/acdh-oeaw/fundament)
  * Licensed under MIT (https://github.com/acdh-oeaw/fundament/blob/master/LICENSE)
  */
+/** Uncrypt mailto value and open the email client **/
 function UnCryptMailto (s) {
   var n = 0;
   var r = "";
@@ -17,6 +18,35 @@ function UnCryptMailto (s) {
 function linkTo_UnCryptMailto (s) {
   location.href=UnCryptMailto (s);
 }
+
+/** Search overlay behaviour **/
+// When clicked on search icon show the overlay
+$("#search-overlay-btn").on("click", function() {
+  $("#search-overlay").fadeIn(200);
+  $("#search-overlay-input").focus();
+}); 
+// When pressed on ESC icon hide the overlay
+$("body").keydown(function(e) {
+  if (e.keyCode == 27) {
+    $("#search-overlay").fadeOut(200);
+  }
+});
+// When clicked on search cancel icon hide the overlay
+$("#search-overlay-cancel").on("click", function() {
+  $("#search-overlay").fadeOut(200);
+});
+// When clicked on search submit icon submit the form
+$("#search-overlay-submit").on("click", function() {
+  $("#search-overlay-form").submit();
+}); 
+// Check if search input has values
+$("#search-overlay-form").submit(function() {
+  if ($.trim($("#search-overlay-input").val()) === "") {
+    alert("Please enter a valid value to search.");
+    return false;
+  }
+});
+
 /*!
   * Bootstrap v4.0.0 (https://getbootstrap.com)
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)

@@ -31,7 +31,7 @@
             <a href="#">
               <i class="fas fa-sign-in-alt"></i>
             </a>
-            <a href="#">
+            <a href="#" id="search-overlay-btn">
               <i class="fas fa-search"></i>
             </a>
           </div>
@@ -39,3 +39,13 @@
         </div>
       </div>
     </nav>
+
+    <div id="search-overlay">
+      <div class="container">
+      <div id="search-overlay-cancel"><i class="fas fa-times"></i></div>    
+        <form id="search-overlay-form" role="search" method="get" action="">
+          <a href="#" id="search-overlay-submit"><i class="fas fa-search"></i></a>
+          <input type="search" name="fullTextSearch" id="search-overlay-input" value="" placeholder="Search..." autocomplete="off">
+        </form>
+      </div>
+    </div>

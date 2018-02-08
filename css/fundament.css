@@ -8881,6 +8881,73 @@ iframe {
   color: #444444;
 }
 
+/* Search Overlay */
+#search-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(255, 255, 255, 0.89);
+  z-index: 9999;
+  text-align: center;
+  display: none;
+}
+#search-overlay .container {
+  display: table;
+  height: 100%;
+  position: relative;
+}
+
+#search-overlay-form {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: left;
+}
+
+#search-overlay-input {
+  font-weight: 400;
+  color: #88dbdf;
+  font-size: 70px;
+  background: 0 0;
+  border: 0;
+  float: left;
+  width: calc(100% - 100px);
+}
+#search-overlay-input:focus {
+  outline: 0;
+}
+#search-overlay-input::placeholder {
+  color: #6c757d;
+}
+
+#search-overlay-submit {
+  background: 0 0;
+  border: none;
+  color: #6c757d;
+  font-size: 55px;
+  margin-top: 15px;
+  margin-right: 10px;
+  width: auto;
+  float: left;
+  text-align: left;
+  transition: color 0.2s linear;
+}
+
+#search-overlay-cancel {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #6c757d;
+  transition: color 0.2s linear;
+}
+
+#search-overlay-cancel:hover, #search-overlay-submit:hover {
+  color: #88dbdf;
+}
+
 .grid-col {
   margin-bottom: 20px;
 }

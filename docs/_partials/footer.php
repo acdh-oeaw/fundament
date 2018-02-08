@@ -44,7 +44,7 @@
   <!-- Fundament core JavaScript -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script defer src="../dist/fundament/vendor/js/fontawesome-all.min.js"></script>
-  <script src="../dist/fundament/vendor/js/jquery-slim.min.js"></script>
+  <script src="../dist/fundament/vendor/js/jquery.min.js"></script>
   <script src="../dist/fundament/js/fundament.min.js"></script>
 </body>
 </html>
