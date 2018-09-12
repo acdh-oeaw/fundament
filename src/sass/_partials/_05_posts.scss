@@ -1,0 +1,75 @@
+//Single posts and default page content
+.single, .page {
+
+  main {
+
+    > * {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    > article {
+      margin-bottom: 2rem;
+      padding: $grid-gutter-width;
+      border-top: $element-border;
+      border-radius: 2px;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.03);
+      background-color: #fff;
+
+      .entry-title {
+        margin-bottom: 1rem;
+      }
+
+      .post-teaser {
+        font-size: 1.5rem;
+      }
+
+      .entry-meta {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+
+        .author-avatar {
+          margin-right: 1rem;
+          min-width: 60px;
+        }
+
+        .author-bio {
+          display: block;
+          color: $gray-600;
+        }
+
+        .entry-meta-icons {
+          min-width: 15rem;
+        }
+
+      }
+
+      .entry-top-thumbnail {
+        margin: (-$grid-gutter-width) (-$grid-gutter-width) $grid-gutter-width/2 (-$grid-gutter-width);
+        max-height: 25rem;
+      }
+
+      .entry-top-thumbnail-caption {
+        margin: -1.5rem 0 0.5rem 0;
+        text-align: right;
+        font-size: 0.9rem;
+        color: $gray-600;
+      }
+
+      .entry-content {
+
+        a {
+          border-bottom: 1px solid $purple;
+          color: $purple;
+
+          &:hover {
+            text-decoration: none;
+            filter: brightness(50%);
+          }
+        }
+      }
+    }
+  }
+}
+

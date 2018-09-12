@@ -1,0 +1,50 @@
+
+/* -----------------------------------------
+	Table of Contents
+--------------------------------------------
+
+.. 01. General
+.. 02. Header
+.. 03. Blocks
+.. 04. Single Posts
+.. 05. Pages
+.. 06. Widgets Styling
+.. 07. Footer
+.. 08. Extras
+*/
+
+/*
+ ** 01. General
+ */
+@import '_partials/_functions';
+@import '_partials/_variables';
+@import '_partials/_01_mixins';
+@import '_partials/_02_general';
+/*
+ ** 02. Header
+ */
+@import '_partials/_03_header';
+/*
+ ** 03. Blocks
+ */
+@import '_partials/_04_blocks';
+/*
+ ** 04. Single Posts
+ */
+@import '_partials/_05_posts';
+/*
+ ** 05. Pages
+ */
+@import '_partials/_06_pages';
+/*
+ ** 06. Widgets
+ */
+@import '_partials/_07_widgets';
+/*
+ ** 07. Footer
+ */
+@import '_partials/_08_footer';
+/*
+ ** 08. Extras
+ */
+@import '_partials/_09_extras';

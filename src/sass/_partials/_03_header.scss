@@ -1,0 +1,242 @@
+// Navbar
+.sticky-navbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.admin-bar .sticky-navbar {
+  top: 32px;
+}
+
+#wrapper-navbar {
+  border-top-style: solid;
+  @include breakpoint-down($md) {
+    border-top-width: 0 !important;
+  }
+}
+
+.navbar-toggler {
+  border: 0;
+  font-size: 1.5rem;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.dropdown-toggle:after {
+  margin-left: .15em;
+  vertical-align: .2em;
+}
+
+.navbar {
+  border-bottom: $element-border;
+  background-color: $white;
+  box-shadow: $element-box-shadow;
+  z-index: 99;
+  @include breakpoint-down($xl) {
+    max-height: 100vh;
+    overflow-y: auto;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  > .container, > .container-fluid {
+    @include breakpoint-down($xl) {
+      padding-left: $grid-gutter-width/2;
+      padding-right: $grid-gutter-width/2;
+    }
+  }
+
+  .navbar-nav {
+    margin-right: auto;
+  }
+
+  .nav-item {
+
+    .nav-link {
+      font-size: 1.1rem;
+      position: relative;
+      @include breakpoint-down($lg) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+
+    &.active {
+      .nav-link {
+        &::after {
+          content: "";
+          height: 0px;
+          background-color: $gray-900;
+          position: absolute;
+          left: 0.5rem;
+          right: 0.5rem;
+          bottom: 0rem;
+        }
+      }
+    }
+  }
+
+
+
+  .nav-link {
+    font-size: 1.1rem;
+    position: relative;
+    @include breakpoint-down($lg) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+
+
+  }
+
+  .dropdown-menu {
+    padding: 0;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    left: 0.5rem;
+    @include breakpoint-down($xl) {
+      border: 0;
+      margin: -0.2rem 0 0 0.5rem;
+    }
+
+    > li {
+      @include breakpoint-up($xl) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      > a.nav-link {
+          padding: 0.5rem 0.75rem;
+      }
+    }
+  }
+
+  .navbar-search-form {
+    @include breakpoint-down($lg) {
+      margin: 0.5rem 0 0.5rem -0.25rem !important
+    }
+  }
+
+  // Navbar brand and logo
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    @include breakpoint-down($xl) {
+      max-width: calc(100% - 5rem);
+    }
+
+    &.site-title-with-logo {
+      margin-left: -2rem;
+      margin-right: auto;
+    }
+
+    img {
+      max-height: 100%;
+      width: auto;
+    }
+
+  }
+
+  .navbar-collapse {
+    @include breakpoint-down($lg) {
+      border-top: 1px solid rgba(0, 0, 0, 0.075);
+      padding-top: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    li {
+      font-size: 1rem;
+    }
+
+    .navbar-search-form {
+      position: relative;
+      margin-left: 0.5rem;
+    }
+
+    .navbar-search {
+      font-size: 0.9rem;
+      width: 9rem;
+      border-radius: 30px;
+      padding: .3rem 1.75rem .3rem .75rem;
+      border: 1px solid rgba(0, 0, 0, 0.075);
+      background-color: rgba(255, 255, 255, 0.1);
+      color: rgba(0, 0, 0, 0.9);
+
+      &::placeholder {
+        color: rgba(0, 0, 0, 0.6);
+      }
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+
+  button.navbar-search-icon {
+    border: 0;
+    padding: 0;
+    background: none;
+    margin-left: -1.6rem;
+    width: 1rem;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 8.75rem;
+    top: 0.25rem;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.9);
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .navbar-social-icon {
+    margin-left: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    @include breakpoint-down($lg) {
+      margin-left: 0;
+    }
+
+    &:nth-of-type(n+2) {
+      margin-left: 0.5rem;
+    }
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.9);
+    }
+  }
+
+
+  &.navbar-dark {
+
+    .navbar-search {
+      color: $white;
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+      }
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.2);
+      }
+    }
+
+    button.navbar-search-icon, .navbar-social-icon {
+      color: rgba(255, 255, 255, 0.5);
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+}
+
+

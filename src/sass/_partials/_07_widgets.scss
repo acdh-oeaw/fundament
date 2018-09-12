@@ -1,0 +1,26 @@
+// Widgets
+.widget {
+  margin-bottom: $grid-gutter-width;
+}
+
+.widget ul, .footer-widget ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.widget-title {
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  padding-bottom: 1rem;
+  margin-bottom: $grid-gutter-width/2;
+}
+
+.separator-title {
+  border-bottom: 1px solid $body-color;
+  padding-bottom: calc(1rem + 1px);
+}
+
+// WordPress & Gutenberg Elements
+.wp-block-button__link:not(.has-text-color), .wp-block-button__link:not(.has-text-color):active, .wp-block-button__link:not(.has-text-color):focus, .wp-block-button__link:not(.has-text-color):hover {
+  color: #fff !important;
+}

@@ -1,0 +1,27 @@
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+// Breakingpoint-down mixin
+// Usage:
+//  @include breakpoint-down($xs) { ... }
+@mixin breakpoint-down($value) {
+  @media (max-width: $value - 1) {
+    @content;
+  }
+}
+
+// Breakingpoint-up mixin
+// Usage:
+//  @include breakpoint-up($xs) { ... }
+@mixin breakpoint-up($value) {
+  @media (min-width: $value) {
+    @content;
+  }
+}

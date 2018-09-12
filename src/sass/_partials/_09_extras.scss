@@ -1,0 +1,86 @@
+.footer-separator {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  svg {
+    margin-right: 0.3rem;
+  }
+}
+
+#wrapper-footer-full a.helpdesk-button {
+  display: block;
+  background-color: $white;
+  border: 1px solid $acdh_blue;
+  border-radius: 20px;
+  padding: 0.25rem 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $acdh_blue;
+  max-width: 16rem;
+  transition: background-color ease .2s, color ease .2s;
+
+  &:hover, &:focus {
+    background-color: $acdh_blue;
+    color: $white;
+    text-decoration: none;
+  }
+
+}
+
+.footer-widget {
+  margin-top: 1rem;
+}
+
+// Docs template
+.docs-side-nav-title {
+  padding-top: 1rem;
+}
+
+.seperation::after {
+  content: '';
+  display: block;
+  width: 2rem;
+  border-top: 2px solid $acdh_blue;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+a.anchorjs-link {
+  border-bottom: 0 !important;
+  padding-left: 0.5rem !important;
+
+  &::after {
+    color: $acdh_blue;
+  }
+
+  &:hover {
+    filter: brightness(90%) !important;
+  }
+
+}
+
+.docs-demo-wrapper {
+  padding: 1.5rem;
+  background: rgba(136, 220, 223, 0.14);
+
+  a {
+    border-bottom: 0 !important;
+  }
+
+}
+
+.wp-geshi-highlight {
+  padding: 10px 10px 10px 15px !important;
+  background-color: rgba(136, 220, 223, 0.14) !important;
+}
+
+body .wp-geshi-highlight pre, body .wp-geshi-highlight span {
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
