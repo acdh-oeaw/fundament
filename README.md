@@ -1,19 +1,40 @@
-# Fundament
-A starter HTML, CSS, and JavaScript framework/guideline for ACDH web applications.
+<p align="center">
 
-## Development
+  <h3 align="center">Fundament WP</h3>
 
-### Compiling SASS
-* Make sure you have sass-watch installed.
-* Run the command: sass --watch scss/fundament.scss:css/fundament.css --style expanded
-* Only edit the .scss files under /scss directory.
-* Your output file fundament.css will be generated under css/ directory.
+  <p align="center">
+    A starter HTML, CSS, and JavaScript framework/guideline for ACDH web applications.
+  </p>
+</p>
 
-### Minifying CSS
-* Make sure you have sass-watch installed.
-* Run the command: sass --watch scss/fundament.scss:dist/fundament/css/fundament.min.css --style compressed
+<br>
 
-### Editing and Minifying JS
-* Edit js/fundament.js and mind the original bootstrap.js content which comes after fundament.js
-* Make sure you have uglifyjs installed.
-* Run the command: uglifyjs js/fundament.js -c -m -o dist/fundament/js/fundament.min.js
+## Table of contents
+
+- [Status](#status)
+- [Installation](#installation)
+- [What's included](#whats-included)
+
+
+## Status
+The most recent stable version can be found under releases.
+
+Moreover the project is currently under constant development.
+
+## Installation
+- Clone or download this repository
+- Go into the dist/ directory and copy the fundament directory into your project.
+- Use the HTML file under examples/example.html as a starting point and extend it with your content and elements.
+
+## What's included
+
+```
+fundament/
+└── dist/
+    └── fundament/ (copy this folder into your project)
+        ├── css/
+        ├── js/
+        ├── images/
+        └── vendor/ 
+```
+
