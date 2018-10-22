@@ -43,6 +43,7 @@ fundament/
 - [ ] Find a name and create a logo preferably with a transparent background and export as .svg or .png
 - [ ] Sketch or make a list of the main pages and the structure your website / application ([remember Shneiderman’s Mantra](http://www.codingthearchitecture.com/2015/01/08/shneidermans_mantra.html))
 - [ ] Write must-have textual content such as "About the project, Team, Contact, Publications, Downloads" etc. in a text editor of your choice.
+- [ ] Think about creating some introductory content (spell out the abbreviations!) to show on the primary section of your home page (i.e hero area)
 - [ ] Develop main functionality of your application with your favourite server side language and use only basic HTML and CSS for the user interface
 - [ ] Download Fundament or Fundament-WP and create a new website instance
 - [ ] Add your project's title, logo, hero area content and information pages
