@@ -29,11 +29,11 @@ Moreover the project is currently under constant development.
 ## Source files
 ### JS
 JavaScript source files can be found under src/js and these files are bundled and minified in the following order:
-/assets/bootstrap.bundle.js  
-/assets/isotope.pkgd.min.js  
-/assets/feather.min.js  
-/assets/skip-link-focus-fix.js  
-/assets/anchor.min.js  
+/assets/bootstrap.bundle.js (https://github.com/twbs/bootstrap/blob/master/dist/js/bootstrap.bundle.js)  
+/assets/isotope.pkgd.min.js (https://github.com/metafizzy/isotope)  
+/assets/feather.min.js (https://github.com/feathericons/feather)  
+/assets/skip-link-focus-fix.js (https://github.com/understrap/understrap/blob/master/src/js/skip-link-focus-fix.js)  
+/assets/anchor.min.js (https://github.com/bryanbraun/anchorjs)  
 theme.js  
 
 ### CSS
