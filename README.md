@@ -29,12 +29,12 @@ Moreover the project is currently under constant development.
 ## Source files
 ### JS
 JavaScript source files can be found under src/js and these files are bundled and minified in the following order:
-/assets/bootstrap.bundle.js
-/assets/isotope.pkgd.min.js
-/assets/feather.min.js
-/assets/skip-link-focus-fix.js
-/assets/anchor.min.js
-theme.js
+/assets/bootstrap.bundle.js  
+/assets/isotope.pkgd.min.js  
+/assets/feather.min.js  
+/assets/skip-link-focus-fix.js  
+/assets/anchor.min.js  
+theme.js  
 
 ### CSS
 SASS files, partials and assets for compiling the fundament.css file can be found under src/sass
