@@ -19,7 +19,11 @@
 ## Status
 The most recent stable version can be found under releases.
 
-Moreover the project is currently under constant development.
+Development is on hold right now.
+
+The minified fundament.min.js contains bootstrap v4.0.0.
+This is incompatible with jQuery >= 3.5.0.
+You can use jQuery up to 3.4.1.
 
 ## Installation
 - Clone or download this repository
