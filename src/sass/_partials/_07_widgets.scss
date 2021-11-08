@@ -12,7 +12,7 @@
 .widget-title {
   border-bottom: 1px solid rgba(0,0,0,.15);
   padding-bottom: 1rem;
-  margin-bottom: $grid-gutter-width/2;
+  margin-bottom: ($grid-gutter-width / 2);
 }
 
 .separator-title {

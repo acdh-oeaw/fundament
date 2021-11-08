@@ -62,9 +62,9 @@
 }
 
 .card-wrapper {
-  margin-top: (-$grid-gutter-width)/2;
-  margin-right: (-$grid-gutter-width)/2;
-  margin-left: (-$grid-gutter-width)/2;
+  margin-top: (-$grid-gutter-width / 2);
+  margin-right: (-$grid-gutter-width / 2);
+  margin-left: (-$grid-gutter-width / 2);
   margin-bottom: $grid-gutter-width;
   display: flex;
   flex-wrap: wrap;
@@ -101,8 +101,8 @@
     }
 
     .card-inner {
-      padding: $grid-gutter-width/2;
-      margin: $grid-gutter-width/2;
+      padding: ($grid-gutter-width / 2);
+      margin: ($grid-gutter-width / 2);
       border-radius: 2px;
       border: 1px solid rgba(0, 0, 0, 0.1);
       background-color: $white;
@@ -230,7 +230,7 @@
 }
 
 .entry-top-thumbnail {
-  margin: (-$grid-gutter-width)/2 (-$grid-gutter-width)/2 $grid-gutter-width/2 (-$grid-gutter-width)/2;
+  margin: (-$grid-gutter-width / 2) (-$grid-gutter-width / 2) ($grid-gutter-width / 2) (-$grid-gutter-width / 2);
   height: 15rem;
   overflow: hidden;
   justify-content: center;
@@ -419,7 +419,7 @@
           bottom: 0;
           right: auto;
           width: 50%;
-          padding: $grid-gutter-width/2;
+          padding: ($grid-gutter-width / 2);
           background-color: #3B89AD;
 
           .entry-title a {

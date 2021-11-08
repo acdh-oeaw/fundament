@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  border-style: solid;
+  border-style: none;
   border-top-width: 0;
   min-height: 100vh;
   @include breakpoint-down($md) {

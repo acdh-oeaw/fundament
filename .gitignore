@@ -2,6 +2,11 @@
 .sass-cache/
 fundament.min.css.map
 .DS_Store
+./src/sass/node_modules/*
+./src/sass/package-lock.json
+./src/sass/scss-bundle.config.json
+./src/js/node_modules/*
+./src/js/package-lock.json
 
 # IDEs
 nbproject/*
