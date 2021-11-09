@@ -1,9 +1,11 @@
 <p align="center">
 
-  <h3 align="center">Fundament WP</h3>
+  <h3 align="center">Fundament</h3>
 
   <p align="center">
-    A starter HTML, CSS, and JavaScript framework/guideline for ACDH web applications.
+    A starter HTML, CSS, and JavaScript framework/guideline for ACDH web applications. (Based on bootstrap v5.1.3)
+    <br>
+    Latest update: 09. November 2021
   </p>
 </p>
 
@@ -11,19 +13,28 @@
 
 ## Table of contents
 
+- [What's new?](#whats-new)
 - [Status](#status)
 - [Installation](#installation)
+- [Source files](#source-files)
 - [What's included](#whats-included)
 - [Tips for creating your project website](#tips-for-creating-your-project-website)
+- [Development] (#development)
+
+## What's new?
+This version of fundament is built on bootstrap v5.1.3. Below you can find some minor changes:
+
+- Grid system has now xxl tier too. (xs, sm, md, lg, xl, xxl -> ≥1400px ) (https://getbootstrap.com/docs/5.1/layout/containers/)
+- Jquery removed (https://getbootstrap.com/docs/5.1/getting-started/javascript/)
+- Bootstrap bundle now contains Popper (for tooltips and popovers) (https://getbootstrap.com/docs/5.1/components/tooltips/)
+- Bootstrap now has own icons ( https://icons.getbootstrap.com/ )
 
 ## Status
 The most recent stable version can be found under releases.
 
-Development is on hold right now.
-
-The minified fundament.min.js contains bootstrap v4.0.0.
-This is incompatible with jQuery >= 3.5.0.
-You can use jQuery up to 3.4.1.
+The minified fundament.min.js contains bootstrap.bundle v5.1.3.
+This version is not using jQuery, if you want to use JQuery please check the documentation https://getbootstrap.com/docs/5.1/getting-started/javascript.
+FontAwesome also removed from this version, icons are coming from the Bootstrap icons library.
 
 ## Installation
 - Clone or download this repository
@@ -41,7 +52,7 @@ JavaScript source files can be found under src/js and these files are bundled an
 theme.js  
 
 ### CSS
-SASS files, partials and assets for compiling the fundament.css file can be found under src/sass
+SASS files, partials and assets for compiling the fundament.css file can be found under src/sass/core.scss
 
 ## What's included
 
@@ -52,7 +63,6 @@ fundament/
         ├── css/
         ├── js/
         ├── images/
-        └── vendor/ 
 ```
 
 ## Tips for creating your project website
@@ -69,7 +79,23 @@ fundament/
 - [ ] Create and enqueue additional .css and .js files to overwrite / extend existing styles or functionality
 
 
+## Development
 
+### Create minified JS:
+You need node and the following packages installed:
+- npm install gulp
+- npm install gulp-uglify
+- npm install gulp-sourcemaps
+- npm install gulp-concat
+- npm install gulp-minify
+
+Then you have to run the https://github.com/acdh-oeaw/fundament/blob/bootstrap5/src/js/gulpfile.js  with the following command: node gulp bundleJs
+
+### Create minified CSS:
+The https://github.com/acdh-oeaw/fundament/blob/bootstrap5/src/sass/core.scss contains all files what we need for the fundament.min.css. 
+
+Run the "sass --watch .\core.scss:..\..\dist\fundament\css\fundament.min.css --style compressed" from the src/sass directory and you can start to changes the sass files.
+It will automatically generate the new compressed css file into the dist directory.
 
 
 
