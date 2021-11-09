@@ -3,11 +3,12 @@ const minifyJs = require('gulp-minify');
 const concat = require('gulp-concat');	
 const uglify = require("gulp-uglify");
 
-const jsFiles = ['./assets/bootstrap.bundle.js', 
-        './assets/isotope.pkgd.min.js', 
-        './assets/feather.min.js',
+const jsFiles = [
+    './assets/bootstrap.bundle.js',
+        './assets/isotope.pkgd.min.js',
         './assets/skip-link-focus-fix.js', 
-        './assets/anchor.min.js'];
+        './assets/anchor.min.js'
+];
 const bundleJs = () => {
     return src(jsFiles)
             .pipe(uglify())

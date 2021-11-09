@@ -23,6 +23,7 @@
     h1 {
       @include breakpoint-down($xl) { width: 100%; }
       margin-bottom: 1rem;
+      font-size: 2.5rem;
     }
     
     p {
@@ -42,7 +43,10 @@
   
       .btn-round {
         color: $white;
-        border-color: $white;
+        border: 1px solid $white !important;    
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem !important;
+        line-height: 0.9rem;
         &:hover {
           background-color: $white;
           color: $gray-900;
@@ -78,6 +82,7 @@
 
       .card-inner {
         box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.03);
+        border-top-color: $acdh_blue !important;
       }
 
     }
@@ -86,6 +91,7 @@
 
       .card-inner {
         border-radius: 2px;
+        border-top-color: $acdh_blue !important;
         box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
       }
 
@@ -96,6 +102,7 @@
       .card-inner {
         border: 0;
         padding: 0;
+        border-top-color: $acdh_blue !important;
       }
 
     }
@@ -104,7 +111,9 @@
       padding: ($grid-gutter-width / 2);
       margin: ($grid-gutter-width / 2);
       border-radius: 2px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-top-color: $acdh_blue !important;
+      border-width: 1px;
+      border-top-width: 5px !important;
       background-color: $white;
       overflow: hidden;
       position: relative;
@@ -123,8 +132,10 @@
       }
 
       .btn-round {
-        font-size: 0.9rem;
-        padding: 0.5rem 1rem;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem !important;
+        line-height: 0.9rem;
+        border: 1px solid rgba(0,0,0,.1);
       }
 
       &.card-horizontal {
@@ -374,16 +385,18 @@
 
 // Buttons
 .btn-round {
-  background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0.6rem 1.2rem;
-  font-size: 0.9rem;
-  line-height: 0.9rem;
+    font-family: inherit !important;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    line-height: 0.9rem !important;
 
-  &:hover {
-    background-color: $gray-900;
-    color: $white;
-  }
+    &:hover {
+        background-color: $gray-900;
+        color: $white;
+    }
 
 }
 
@@ -434,11 +447,11 @@
           }
 
           .btn {
-            border-color: #fff;
             color: #fff;
             font-size: 0.9rem;
             padding: 0.5rem 1rem;
             margin: 0;
+            border: 1px solid rgba(0,0,0,.1);
           }
 
         }
@@ -507,6 +520,7 @@
           .btn {
             border-color: #fff;
             color: #fff;
+            border: 1px solid rgba(0,0,0,.1);
           }
 
         }
