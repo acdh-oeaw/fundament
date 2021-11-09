@@ -19,7 +19,7 @@
 - [Source files](#source-files)
 - [What's included](#whats-included)
 - [Tips for creating your project website](#tips-for-creating-your-project-website)
-- [Development] (#development)
+- [Development](#development)
 
 ## What's new?
 This version of fundament is built on bootstrap v5.1.3. Below you can find some minor changes:
@@ -96,17 +96,3 @@ The https://github.com/acdh-oeaw/fundament/blob/bootstrap5/src/sass/core.scss co
 
 Run the "sass --watch .\core.scss:..\..\dist\fundament\css\fundament.min.css --style compressed" from the src/sass directory and you can start to changes the sass files.
 It will automatically generate the new compressed css file into the dist directory.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
