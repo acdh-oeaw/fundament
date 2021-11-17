@@ -15,6 +15,7 @@
 - [Installation](#installation)
 - [What's included](#whats-included)
 - [Tips for creating your project website](#tips-for-creating-your-project-website)
+- [Bootstrap v5](#bootstrap5)
 
 ## Status
 The most recent stable version can be found under releases.
@@ -68,8 +69,10 @@ fundament/
 - [ ] Check out Fundament's example pages and Bootstrap-4 for which CSS classes to use and adapt your components
 - [ ] Create and enqueue additional .css and .js files to overwrite / extend existing styles or functionality
 
+## Bootstrap5
 
-
+You can find the first version of Fundament with Bootstrap v5.1.3 under the bootstrap5 branch: https://github.com/acdh-oeaw/fundament/tree/bootstrap5
+Please test it and give us feedback. (17.11.2021)
 
 
 
